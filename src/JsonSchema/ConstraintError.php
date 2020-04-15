@@ -52,6 +52,8 @@ class ConstraintError extends Enum
     const TYPE = 'type';
     const UNIQUE_ITEMS = 'uniqueItems';
 
+    const INVALID_CPF = 'invalidCpf';
+
     public function getMessage()
     {
         $name = $this->getValue();

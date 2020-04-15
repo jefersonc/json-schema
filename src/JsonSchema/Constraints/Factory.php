@@ -57,6 +57,7 @@ class Factory
         'undefined' => 'JsonSchema\Constraints\UndefinedConstraint',
         'string' => 'JsonSchema\Constraints\StringConstraint',
         'number' => 'JsonSchema\Constraints\NumberConstraint',
+        'cpf' => 'JsonSchema\Constraints\CpfConstraint',
         'enum' => 'JsonSchema\Constraints\EnumConstraint',
         'const' => 'JsonSchema\Constraints\ConstConstraint',
         'format' => 'JsonSchema\Constraints\FormatConstraint',
